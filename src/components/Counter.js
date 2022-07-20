@@ -19,10 +19,10 @@ const Counter = () => {
 
     return (
         <div>
-            <h2>Count : {count}</h2>
-            <button onClick={handleIncrement}>Increment</button>
-            <button onClick={handleReset}>Reset</button>
-            <button onClick={handleDecrement}>Decrement</button>
+            <h2 className='text-2xl my-5 '>Count : {count}</h2>
+            <button className='btn btn-active mr-2' onClick={handleIncrement}>Increment</button>
+            <button className='btn btn-active mr-2' onClick={handleReset}>Reset</button>
+            <button className='btn btn-active mr-2' onClick={handleDecrement}>Decrement</button>
         </div>
     );
 };
